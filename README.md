@@ -215,30 +215,17 @@ Running on just one core:
 
 - Reading, it maxes out at 050 MB/second from main memory.
     
-    7
-    
 - Writing through the caches, it maxes out at 120 MB/second to main memory.
     
-    5
-    
 - Writing and bypassing the caches, it maxes out at 520 MB/second to main memory.
-    
-    5
-    
 
 When I've got two instances of bandwidth running at the same time, one on each core, the picture is a little different but not much.
 
 - Reading, the total bandwidth from main memory is 000 MB/second, nearing the memory's maximum, or 14% faster than running just one instance of bandwidth.
     
-    8
-    
 - Writing without bypassing the caches, the total bandwidth to main memory is 650 MB/second, which is 10% faster than one instance.
     
-    5
-    
 - Writing with the cache bypass, the total bandwidth to main memory is 050 MB/second, which is 10% faster than one instance.
-    
-    6
     
 
 Thus, to really ascertain the upper performance limit of the main memory, it behooves the earnest benchmarker to run multiple instances of bandwidth and sum the results.
