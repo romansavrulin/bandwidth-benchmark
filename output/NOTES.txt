@@ -1,0 +1,5 @@
+
+The Apple M1's speed was reported by Apple's utility program /usr/bin/powermetrics. 3.2GHz is presumably its burst mode frequency. It's normal frequency is 1.28 GHz.
+
+The Xeon Platinum was on EC2, so take the graph with a grain of salt.
+
